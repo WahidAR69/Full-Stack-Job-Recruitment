@@ -1,0 +1,179 @@
+.jobPost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 20px auto;
+}
+.jobPost form label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.jobPost form input {
+    border: none;
+    width: 450px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 4px solid black;
+}
+
+.jobPost form textarea  {
+    border: none;
+    padding: 10px;
+    width: 450px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 4px solid black;
+}
+
+.jobPost form input:focus, .jobPost form textarea:focus {
+    outline: none;
+    border: 4px solid tomato;
+}
+
+.jobPost form input:first-of-type {
+    border-radius: 20px 20px 0 0;
+}
+
+
+.jobPost form button {
+    width: 450px;
+    padding: 10px 0;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0 0 20px 20px;
+    background-color: transparent;
+}
+
+.jobPost form button:hover {
+    border: 4px solid tomato;
+}
+@media (min-width: 0px) {
+    .jobPost {
+        width: 250px;
+        gap: 5px;
+    }
+    .jobPost form label {
+        font-size: 8px;
+    }
+    
+    .jobPost form input {
+        width: 210px;
+        border: 2px solid black;
+        font-size: 8px;
+    }
+    
+    .jobPost form textarea  {
+        width: 210px;
+        border: 2px solid black;
+        font-size: 8px;
+    }
+    
+    .jobPost form input:focus, .jobPost form textarea:focus {
+        outline: none;
+        border: 2px solid tomato;
+    }
+    
+    .jobPost form input:first-of-type {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    
+    .jobPost form button {
+        width: 210px;
+        border: 2px solid black;
+        outline: 1px solid rgb(255, 255, 255);
+    }
+    
+    .jobPost form button:hover {
+        outline: none;
+        border: 2px solid tomato;
+    }
+}
+@media (min-width: 480px) {
+    .jobPost {
+        width: 500px;
+    }
+    .jobPost form label {
+        font-size: 12px;
+    }
+    
+    .jobPost form input {
+        width: 450px;
+        border: 3px solid black;
+        font-size: 14px;
+    }
+    
+    .jobPost form textarea  {
+        width: 450px;
+        border: 3px solid black;
+        font-size: 14px;
+    }
+    
+    .jobPost form input:focus, .jobPost form textarea:focus {
+        outline: none;
+        border: 4px solid tomato;
+    }
+    
+    .jobPost form input:first-of-type {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    
+    .jobPost form button {
+        width: 450px;
+        border: 3px solid black;
+        outline: 1px solid rgb(255, 255, 255);
+    }
+    
+    .jobPost form button:hover {
+        outline: none;
+        border: 3px solid tomato;
+    }
+}
+
+@media (min-width: 750px) {
+    .jobPost {
+        width: 600px;
+    }
+    .jobPost form label {
+        font-size: 16px;
+    }
+    
+    .jobPost form input {
+        width: 500px;
+        font-size: 20px;
+    }
+    
+    .jobPost form textarea  {
+        width: 500px;
+        font-size: 20px;
+    }
+    
+    .jobPost form input:focus, .jobPost form textarea:focus {
+        outline: none;
+        border: 4px solid tomato;
+    }
+    
+    .jobPost form input:first-of-type {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    
+    .jobPost form button {
+        width: 500px;
+        border: 4px solid black;
+        outline: 1px solid rgb(255, 255, 255);
+    }
+    
+    .jobPost form button:hover {
+        outline: none;
+        border: 4px solid tomato;
+    }
+}

@@ -1,0 +1,170 @@
+.navbar {
+    display: flex;
+    margin: auto;
+    color: white;
+    margin-bottom: 30px;
+    background-color: rgb(78, 122, 218);
+    border-radius: 0 0 10px 10px;
+    box-sizing: border-box;
+}
+.navbar-logo-container {
+    display: flex;
+    align-items: center;
+}
+.navbar-logo-container p {
+    margin: 0;
+    font-weight: bold;
+}
+.navbar-links, .navbar-links ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.navbar-links ul li {
+    margin: 0 10px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-button {
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid rgb(233, 219, 219);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+.navbar-button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.profile-container {
+    position: relative;
+}
+
+.profile-icon-wrapper {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: red;
+}
+
+.profile-dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout-icon, .profile-icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+@media (min-width: 0) {
+    .navbar {
+        padding: 10px 0;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        animation: fadeIn 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+    .navbar-logo-container p {
+        font-size: 8px;
+    }
+    .navbar-links ul li {
+        font-size: 5px;
+        margin: 0 5px;
+        border-bottom: 1px solid tomato;
+    }
+    .navbar-links ul li:hover {
+        font-size: 4px;
+        border-bottom: 2px solid black;
+        transition: 0.5s;
+    }  
+    .navbar-links, .navbar-links ul {
+        padding: 0;
+    }
+    .navbar-button {
+        padding: 2px 4px;
+        font-size: 5px;
+    }
+    .logout-icon, .profile-icon {
+        width: 10px;
+        height: 10px;
+    }
+    .logout-button {
+     font-size: 6px;
+    }
+   }
+
+@media (min-width: 480px) {
+    .navbar-logo-container p {
+        font-size: 10px;
+    }
+    .navbar-links ul li {
+       font-size: 8px;
+       border-bottom: 1.5px solid tomato;
+    }
+    .navbar-links ul li:hover {
+        font-size: 6px;
+        border-bottom: 2px solid black;
+        transition: 0.5s;
+    }  
+    .navbar-button {
+        font-size: 8px;
+    }
+    .logout-icon, .profile-icon {
+        width: 15px;
+        height: 15px;
+    }
+    .logout-button {
+     font-size: 10px;
+    }
+}
+
+@media (min-width: 900px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 40px;
+    }
+    .navbar-logo-container p {
+        font-size: 16px;
+    }
+    .navbar-links ul li {
+       font-size: 12px;
+       border-bottom: 2px solid tomato;
+    }  
+    .navbar-links ul li:hover {
+        font-size: 10px;
+        border-bottom: 2px solid black;
+        transition: 0.5s;
+    }  
+    .navbar-button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .logout-icon, .profile-icon {
+        width: 25px;
+        height: 25px;
+    }
+    .logout-button {
+     font-size: 16px;
+    }
+}
+    
+ 
